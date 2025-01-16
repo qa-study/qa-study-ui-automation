@@ -61,4 +61,4 @@ class BasePage:
         """
         self.element_wait(selector, locator)
         element = self.driver.find_element(by=selector, value=locator)
-        return element.is_displayed()
+        element.is_displayed()
